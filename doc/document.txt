@@ -1,0 +1,352 @@
+
+<<== type of report ==>
+#case all = 46 case 
+#case work = 21 case 
+#case name = 0-13, 1, 2, 3, 5, 46, 7, 8, 9, 10, 11, 12, 29, 30, 33, 34, 38, 39, 41, 42, 43
+#case 46 event type = 6, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 35, 36, 37, 40, 44, 45, 46
+
+
+#meaning description
+
+0-13  =   Not Reported report || last location report => ລາຍງານຂໍ້ມູນລ່າສຸດ
+            rtime: true
+            type: 0
+
+            rtime: true
+            type: 13
+1!!!   =   Trip Log Report =>  ລາຍງານບັນທຶກການເດີນທາງ
+            rtime: true
+            type: 1
+            objid: 3971
+            stime: 2021-09-01 12:10
+            etime: 2021-09-01 12:10
+
+2   =   History Photo Report => ລາຍງານປະຫວັດຮູບ
+            rtime: true
+            type: 2
+            objid: 3971
+            stime: 2021-09-01 12:10
+            etime: 2021-09-02 12:10
+
+3   =   Asset RFID Log => ບັນທຶກ RFID
+            rtime: true
+            type: 3
+            stime: 2021-09-01 15:42
+            etime: 2021-09-23 15:42
+
+5   =   Speed Chart => ຊາດຄວາມໄວ
+            rtime: true
+            type: 5
+            objid: 4508
+            stime: 2021-09-01 15:42
+            etime: 2021-09-02 15:42
+
+7   =   Fuel Chart  => ລາຍງານກາບນ້ຳມັນເຊື້ອໄຟ
+            rtime: true
+            type: 7
+            objid: 4508
+            stime: 2021-09-01 15:42
+            etime: 2021-09-02 15:42
+
+8   =   Refuel Log => ບັນທຶກການເຕີມນ້ຳມັນເຊື້ອໄຟ
+            rtime: true
+            type: 8
+            objid: 4508
+            stime: 2021-09-01 15:42
+            etime: 2021-09-02 15:42
+
+9   =   Steal fuel Log => ບັນທຶກການລັກນ້ຳມັນເຊື້ອໄຟ
+            rtime: true
+            type: 9
+            objid: 4508
+            stime: 2021-09-01 15:42
+            etime: 2021-09-02 15:42
+
+10  =   Temperature Chart => ຊາດອຸນຫະພູມ
+            rtime: true
+            type: 10
+            objid: 4508
+            stime: 2021-09-01 15:42
+            etime: 2021-09-02 15:42
+
+11  =   Asset Daily Usage Report => ລາຍງານການໃຊ້ຊັບສິນປະຈຳວັນ
+            rtime: true
+            type: 11
+            objids[]: 3972
+            objids[]: 4384
+            stime: 2021-09-01 11:40
+            etime: 2021-09-02 11:40
+
+12  =   Daily Travel Report => ລາຍງານການເດີນທາງປະຈຳວັນ
+            rtime: true
+            type: 12
+            objid: 3971
+            stime: 2021-09-01
+            etime: 2021-09-02
+29  =   Max Speed Report => ລາຍງານຄວາມໄວສູງສຸດ
+            rtime: true
+            type: 29
+            objid: 3971
+            stime: 2021-09-01
+            etime: 2021-09-02
+  
+30  =   Alcohol AD Repot => ລາຍງານດື່ມເຫຼົ້າ
+            rtime: true
+            type: 30
+            objid: 4508
+            stime: 2021-09-01
+            etime: 2021-09-02
+
+33  =   Speeding Time Report => ລາຍງານເວລາເລັ່ງດ່ວນ
+            rtime: true
+            type: 33
+            objid: 3971
+            stime: 2021-09-01
+            etime: 2021-09-02
+
+34  =   Stop Detail Report  => ລາຍງານລາຍລະອຽດການຢູ່
+        rtime: true
+        type: 34
+        objid: 3971
+        stime: 2021-09-01 11:40
+        etime: 2021-09-02 11:40
+        rduration: 5
+
+38  =   Moves Detail Report => ລາຍງານລາຍລະອຽດການເຄື່ອນຍ້າຍ
+        rtime: true
+        type: 38
+        objid: 3971
+        stime: 2021-09-01 11:40
+        etime: 2021-09-02 11:40
+        distance: 10
+        
+39  =   Asset Usage Report Real Time => ລາຍງານການໃຊ້ຊັບສິນແບບ real time
+            rtime: true
+            type: 39
+            objid: 3971
+            stime: 2021-09-01 11:40
+            etime: 2021-09-02 11:40
+
+41  =   Place Event Detail Report => ລາຍງານເຫດການຕາມສະຖານທີ່
+            rtime: true
+            type: 41
+            objid: 3971
+            stime: 2021-09-01 11:40
+            etime: 2021-09-02 11:40
+
+42  =   User Login Record  => ລາຍງານບັນທຶກການເຂົ້າສູ່ລະບົບຂອງຜູ້ໃຊ້
+            rtime: true
+            type: 42
+            uname: administrator
+            stime: 2021-09-01 15:42
+            etime: 2021-09-23 15:42
+
+43  =   Voice Record Report => ລາຍງານການບັນທຶກສຽງ
+
+            rtime: true
+            type: 43
+            stime: 2021-09-01 15:42
+            etime: 2021-09-23 15:42
+
+<<== Multiple event of type ==>>
+46 Detail:
+
+case 6: = All Events Report => ລາຍງານເຫດການທັງໝົດ
+            rtime: true
+            type: 6
+            eventtype: 
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 14: = Over Speed Event Report => ລາຍງານຄວາມໄວເກີນກຳນົດ
+            rtime: true
+            type: 14
+            eventtype: 4107
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 15: = Hijack Event Report => ລາຍງານເຫດການປົ້ນຈີ້
+            rtime: true
+            type: 15
+            eventtype: 4097
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 16: = Steal Event Report => ລາຍງານການລັກ
+            rtime: true
+            type: 16
+            eventtype: 4098
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 17: = Towing Event Report => ລາຍງານການລາກແກ່
+            rtime: true
+            type: 17
+            eventtype: 4099
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 18: = Shock Event Report => ລາຍງານການເຕັ້ນການກະແທກ
+            rtime: true
+            type: 18
+            eventtype: 4100
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 19: = Door Opened Event Report => ລາຍງານການເປີດປະຕູ
+            rtime: true
+            type: 19
+            eventtype: 4101
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 20: = Illegal Ignition Event Report => ລາຍງານການລະເບິດຜິດກົດໝາຍ
+            rtime: true
+            type: 20
+            eventtype: 4102
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 21: = Power Tamper Event Report => ລາຍງານການແກະສາຍໄຟ, ປົດໄຟ ຫຼື ຕັດໄປ
+            rtime: true
+            type: 21
+            eventtype: 4103
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 22: = Place Out Event Report => ລາຍງານອອກຈາກສະຖານທີ່
+            rtime: true
+            type: 22
+            eventtype: 4110
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 23: = Place In Event Report => ລາຍງານການເຂົ້າຫາສະຖານທີ່
+            rtime: true
+            type: 23
+            eventtype: 4111
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 24: = Fatigue Driving Event Report => ລາຍງານຄວາມເມື່ອຍລ້າຂອງການຂັບລົດ
+            rtime: true
+            type: 24
+            eventtype: 4114
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 25: = Overtime Driving Event Report => ລາຍງານການຂັບລົດເກີນເວລາ
+            rtime: true
+            type: 25
+            eventtype: 4115
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 26: = Idie Event Report => ລາຍງານເຫດການລົດຕາຍ
+            rtime: true
+            type: 26
+            eventtype: 4164
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 27: = Backup Battery Low Event Report => ລາຍງານແບັດສຳຮອງຕ່ຳ
+            rtime: true
+            type: 27
+            eventtype: 4130
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 28: = Car Battery Low Event Report => ລາຍງານແບັດລົດຕ່ຳ
+            rtime: true
+            type: 28
+            eventtype: 4129
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 31: = Drunk Driving Report => ລາຍງານເມົາແລ້ວຂັບ
+            rtime: true
+            type: 31
+            eventtype: 16416
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 32:  = Blowing Report => ລາຍງານການເຕີມລົມ
+            rtime: true
+            type: 32
+            eventtype: 16417
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 35: = Mileage Maintenance Report => ລາຍງານການບຳລຸກຮັກສາຕາມໄລຍະທາງ
+            rtime: true
+            type: 35
+            eventtype: 16407
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 36: = Engine Maintenance Report => ລາຍງານການບຳລຸງຮັກສາເຄື່ອງຈັກ
+            rtime: true
+            type: 36
+            eventtype: 16408
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 37: = Days Maintenance Report => ລາຍງານການບຳລຸງຮັກສາປະຈຳວັນ
+            rtime: true
+            type: 37
+            eventtype: 16409
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 40: = Seat Belt Open Report => ລາຍງານການໃຊ້ສາຍນິລະໄພ
+            rtime: true
+            type: 40
+            eventtype: 12320
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 44: = Harsh Acceleration Report => ລາຍງານການເລັ່ງຄວາມໄວຮຸນແຮງກະທັນຫັນ
+            rtime: true
+            type: 44
+            eventtype: 4170
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+case 45: = Harsh Braking Report => ລາຍງານການເບກກະທັນຫັນ
+            rtime: true
+            type: 45
+            eventtype: 4171
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-01 13:59
+
+46  =   Harsh Cornering Report => ລາຍງານການໂຄ້ງແຮງກະທັນຫັນ
+            rtime: true
+            type: 46
+            eventtype: 4173
+            objid: 3971
+            stime: 2021-09-01 13:59
+            etime: 2021-09-02 13:59
