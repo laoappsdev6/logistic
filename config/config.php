@@ -8,9 +8,9 @@ define("dbcharset", "utf8");
 define("dbsetname", "SET NAMES utf8");
 
 define("serverHost", "0.0.0.0");
-define("webSocketPort", 45382);
-define("httpPort", 45381);
-define("tcpPort", 45383);
+define("webSocketPort", 45682);
+define("httpPort", 45681);
+define("tcpPort", 45683);
 
 // define("queryServerHost", "192.168.1.137");
 // define("queryServerPort", 28000);
